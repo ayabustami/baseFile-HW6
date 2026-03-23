@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" href="./img/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
 </head>
 <body>
 
-<header class="fixed header">
+<header class="fixed header py-20 bg-white">
     <div class="container flex-between">
         <div class="title">
-            <a class="text-white font-weight-bold  text-lg " href="">Start Bootstrap</a>
+            <a class="text-black font-weight-bold  text-lg " href="">Start Bootstrap</a>
         </div>
         <nav class="nav-list">
             <ul class="flex gap-20">
-                <li><a href="#about">About</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a class="text-black " href="#about">About</a></li>
+                <li><a class="text-black " href="#Services">Services</a></li>
+                <li><a class="text-black " href="#Portfolio">Portfolio</a></li>
+                <li><a class="text-black " href="#Contact">Contact</a></li>
             </ul>
         </nav>
         <div class="menu">
@@ -29,9 +31,9 @@
     </div>
 </header>
 
-<section class="hero text-white" >
-    <div class="hero-section">
-        <h2 class="font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h2>
+<section class="hero w-100 vh-100 flex flex-col justify-center align-center text-white" >
+    <div class="hero-section flex flex-col align-center text-center px-20">
+        <h2 class="font-weight-bold text-3xl relative pb-20">Your Favorite Place for Free Bootstrap Themes</h2>
         <p class="mt-30">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
         <button class="bg-warning btun-primary uppercase mt-30 ">Find Out More</button>
     </div>
@@ -45,27 +47,28 @@
         <button class="bg-white border-radius p-20 font-weight-bold border-0 uppercase mt-30 text-black">Get Started!</button>
     </div>
 </section>
+
 <section id="Services" class="collIcon vh-50 flex flex-col justify-center align-center text-center">
     <h2 class="font-weight-bold text-2xl relative mt-50">At Your Service</h2>
 
     <div class="grid grid-cols-4 gap-5 mt-50">
         <div class="card">
-            <i class="fa-regular fa-gem"></i>
+            <i class="fa-regular fa-gem text-2xl text-warning mb-15"></i>
             <h3 >Sturdy Themes</h3>
             <p>Our themes are updated regularly to keep them bug free!</p>
         </div>
         <div class="card">
-            <i class="fa-solid fa-laptop"></i>
+            <i class="fa-solid fa-laptop text-2xl text-warning mb-15"></i>
             <h3>Up to Date</h3>
             <p>All dependencies are kept current to keep things fresh.</p>
         </div>
         <div class="card">
-            <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-globe text-2xl text-warning mb-15"></i>
             <h3>Ready to Publish</h3>
             <p>You can use this design as is, or you can make changes!</p>
         </div>
         <div class="card">
-            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-heart text-2xl text-warning mb-15"></i>
             <h3>Made with Love</h3>
             <p>Is it really open source if it's not made with love?</p>
         </div>
@@ -75,7 +78,7 @@
 <section   id ="Portfolio" class=" collections container  grid grid-cols-3 ">
     <div class="collection relative">
         <img src="./img/1.jpg" alt="Card Image 1" class="w-100">
-        <div class="collection-details ">      
+        <div class="collection-details  absolute flex flex-col  justify-center align-center">      
         <p class="text-blurWhite">Category</p>
         <h3 class="text-white">Project Name</h3>
 
@@ -83,7 +86,7 @@
     </div>
     <div class="collection relative">
         <img src="./img/2.jpg" alt="Card Image 2" class=" w-100">
-        <div class="collection-details ">      
+        <div class="collection-details  absolute flex flex-col  justify-center align-center ">      
         <p class="text-blurWhite">Category</p>
         <h3 class="text-white">Project Name</h3>
 
@@ -91,7 +94,7 @@
     </div>
     <div class="collection relative">
         <img src="./img/3.jpg" alt="Card Image 3" class="w-100">
-        <div class="collection-details ">      
+        <div class="collection-details absolute flex flex-col  justify-center align-center ">      
         <p class="text-blurWhite">Category</p>
         <h3 class="text-white">Project Name</h3>
 
@@ -99,7 +102,7 @@
     </div>
     <div class="collection relative">
         <img src="./img/4.jpg" alt="Card Image 4" class=" w-100">
-        <div class="collection-details ">      
+        <div class="collection-details  absolute flex flex-col  justify-center align-center ">      
         <p class="text-blurWhite">Category</p>
         <h3 class="text-white">Project Name</h3>
 
@@ -107,7 +110,7 @@
     </div>
     <div class="collection relative">
         <img src="./img/5.jpg" alt="Card Image 5" class="w-100">
-        <div class="collection-details ">      
+        <div class="collection-details  absolute flex flex-col  justify-center align-center">      
         <p class="text-blurWhite">Category</p>
         <h3 class="text-white">Project Name</h3>
 
@@ -115,7 +118,7 @@
     </div>
     <div class="collection relative">
         <img src="./img/6.jpg" alt="Card Image 6" class="w-100">
-        <div class="collection-details ">      
+        <div class="collection-details  absolute flex flex-col  justify-center align-center">      
         <p class="text-blurWhite">Category</p>
         <h3 class="text-white">Project Name</h3>
 

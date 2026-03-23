@@ -1,30 +1,12 @@
-
 .hero {
     background-image: linear-gradient(rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
-    width: 100%;
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+} 
 
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 800px;
-    padding: 0 20px;
-}
 
-.hero-section h2 {
-    font-size: 45px;
-    position: relative;
-    padding-bottom: 20px;
-}
+
 
 .hero-section h2::after {
     content: "";
@@ -78,49 +60,34 @@
 
 }
 
-a {
-    color: #ffffff;
-}
-
-.header {
-    position: fixed;
-    z-index: 9999;
-    padding: 18px 0;
-    background-color: rgb(255, 255, 255);
 
 
-}
 
-.header a{
-    color: #181717 ;
-}
 .menu {
     display: none;
 }
 
-.collIcon i{
-    
-    font-size: 40px;
-    color: #f4623a;
-    margin-bottom: 15px;
-
-}
 .collection-details {
-    position: absolute;
     inset: 0;
     background-color: rgb(249, 86, 22, 0.7);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: #ffffff;
     opacity: 0;
     transition: 0.3s;
-    cursor: pointer;
 }
 .collection:hover .collection-details{
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
 
