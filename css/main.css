@@ -195,6 +195,10 @@ a {
 
 
 @media screen and (min-width: 601px) and (max-width: 988px) {
+     .hero {
+        height: 70vh;
+        padding: 20px;
+    }
 
     h2 {
         font-size: 34px !important;
@@ -207,7 +211,8 @@ a {
     }
 
     .container {
-        width: 85%;
+        width: 90%;
+        margin: auto;
     }
 
     .grid-cols-4 {
@@ -219,15 +224,16 @@ a {
     }
     .sec-section,
     .collIcon {
-        min-height: 80vh;
+        min-height: 30vh;
+    
     }
 
     .form-sec {
-        min-height: 70vh;
+        min-height: 80vh;
     }
 
     .bg-gray {
-        min-height: 35vh;
+        min-height: 55vh;
     }
     .collections{
     padding: 0 !important;

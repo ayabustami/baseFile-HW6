@@ -6,9 +6,7 @@
     --color-warning:        #f95616;
     --color-info:           #06b6d4;
     --color-white:          #ffffff;
-    --color-blurwhite:          rgb(255, 255, 255 , 0.5);
-
-
+    --color-blurwhite:      rgb(255, 255, 255 , 0.5);
     --space-0:    0;
     --space-px:   1px;
     --space-1:    5px;
@@ -24,11 +22,9 @@
 
 .uppercase { text-transform: uppercase; }
 .lowercase  { text-transform: lowercase; }
-
 .container {
     width: calc(100% - 500px);
     margin: auto;
-    
 }
 
 .row {
@@ -341,7 +337,7 @@ ul { list-style: none; }
 .form-container {
     width: calc(100% - 1300px);
     margin: auto;
-    }
+}
 
 .input {
     width: 100%;
@@ -351,17 +347,14 @@ ul { list-style: none; }
     padding-right:320px;
     padding-left: 5px;
     margin: 10px 0;
-    
-    
 }
 
-    .textarea {
+.textarea {
     resize: vertical;
     min-height: 100px;
     width: 100%;
     padding-right: 5px;
-
-    }    
+}    
 
 
     
